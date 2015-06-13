@@ -1,0 +1,17 @@
+{
+  "name": "Producer",
+  "version": "0.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "amqplib": "^0.3.2",
+    "when": "^3.7.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "private": true
+}
